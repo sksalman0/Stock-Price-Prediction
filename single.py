@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 
 def model(stock_name):
-    data = yf.download(stock_name,period='15y',interval='1d')
+    data = yf.download(stock_name,period='10y',interval='1d')
     data.drop('Adj Close',axis=1,inplace=True)
     data = data.dropna()
     data[f"{stock_name}_stock"] = data["Close"].shift(-1)
