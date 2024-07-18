@@ -23,7 +23,3 @@ def mpredict():
     return render_template('index.html',prediction=f'Tomorrows Closing price for given data is {pred}')
     
 
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
