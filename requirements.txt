@@ -1,3 +1,7 @@
 Flask
 Gunicorn
 yfinance
+sklearn
+pandas
+numpy
+warnings
