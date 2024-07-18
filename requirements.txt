@@ -1,7 +1,7 @@
 Flask
 Gunicorn
 yfinance
-sklearn
+scikit-learn
 pandas
 numpy
 warnings
